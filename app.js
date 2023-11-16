@@ -28,3 +28,4 @@ app.use("/api/articles",articleRouter)
 app.listen(process.env.PORT, () => {
     connect();
  console.log(`Server is listening on port ${process.env.PORT}`); });
+ module.exports = app;
